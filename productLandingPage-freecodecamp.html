@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<style>
+@media only screen and (min-width: 300px) {
+  body {
+
+  }
+}
+body{
+  center
+}
+h1{
+  font-size: 50px;
+  font-family:
+}
+#header-img{
+  height: auto;
+  max-height: 30px;
+  max-width: 100%;
+}
+#nav-bar{
+  justify-content: flex-end;           position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #4F5726;
+  z-index: 10;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: ##4F5726
+;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111
+#nav-options{
+  display: flex;
+  margin-right: 2rem;
+}
+
+}
+.flex-container {
+  display: flex;
+  background-color: darkgreen;
+}
+#flexbox{
+  background-color: lightgreen;
+  margin: auto;
+  padding: 15px;
+  font-size: 15px;
+}
+#product-image{
+  height: 300px;
+  width: 300px;
+  max-height: 100%;
+  max-width: 100%
+}
+ #product-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #71bd2a;
+  background-image: linear-gradient(62deg, #4F5726 0%, #181719 100%);
+}
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: #2b6c9c;
+}
+#interactive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #4f591a;
+}
+#gary{
+  height:auto;
+  width: auto;
+  max-height: 400px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+p{
+  font-size: 20px;
+}
+#info{
+ text-align: center;
+}
+#product-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  background-color: #556b2f;
+}
+</style>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<header id = "header">
+ <img src = "https://nationalprostaff.com/dat/companies/1/8/6/brands/132/logo.jpg" id = "header-img" alt = "Gary Yamamoto Custom Baits Logo">
+  <nav id = "nav-bar">
+    <ul id = "nav-options">
+      <li><a href = "#email" class = "nav-link"> Email </a></li>
+      <li>  <a href = "#video" class = "nav-link">Video</a></li>
+      <li><a href = "#products" class = "nav-link">Products</a></li>
+    </ul>
+  </nav>
+  </header>
+<section id = "product-intro">
+  <h1>THE GARY YAMAMTO CUSTOM BAITS SENKO</h1>
+</section>
+<section id = "interactive">
+  <h2>Designed to perfection by Gary Yamamoto</h2>
+  <img id = "gary" src = "http://basseast.com/wp-content/uploads/2010/07/1739946_f520.jpg">
+    <p>Countless ways to rig it and catch fish! If there's been one lure that has changed the face of fishing over the years, it's the Yamamoto Senko. <p/>
+<iframe width="600" height="300"
+src="https://www.youtube.com/embed/Qm_ITzDVobQ" id = "video">
+</iframe>
+</section>
+<section id = "product-info">
+  <h2>The Senko has a varity of colors to choose from to suit every fish!</h2>
+  <div class = "flex-container" id = "products">
+  <div id = "flexbox"><img id = "product-image" src = "https://www.lureheaven.co.uk/spinning-lure-fishing-shop/gycb-s5-4lg.jpg"></div>
+  <div id = "flexbox"><img id = "product-image" src = "https://www.lureheaven.co.uk/spinning-lure-fishing-shop/gycb-s6-3lg.jpg"></div>
+  <div id = "flexbox"><img id = "product-image" src = "https://www.lureheaven.co.uk/spinning-lure-fishing-shop/gycb-s5-2lg.jpg"></div>
+</section>
+<section id = "contact">
+  <br><br><br>
+  <form action = "https://www.freecodecamp.com/email-submit" id = "form">
+    <label>Join our newsletter!</label>
+    <input type = "email" placeholder = "Email" id="email" name = "email">
+    <input id = "submit" type = "submit" value = "Submit">
+  </form><br><br><br><br>
+  </section>
+</html>
